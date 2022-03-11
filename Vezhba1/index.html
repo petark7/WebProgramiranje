@@ -1,0 +1,141 @@
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+    body {
+        padding-left: 10%;
+        margin-right: 10%;
+    }
+    
+    button {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+</style>
+
+<body>
+    <center><button type ="button" class = "btn-primary btn-lg glyphicon glyphicon-plus"> btn_primary</button></center>
+    <center><button type ="button" class = "btn-info glyphicon btn-lg glyphicon-option-horizontal"> btn_info</button></center>
+<br>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+      80% Complete
+    </div>
+</div>
+
+<table class="table table-bordered"  style="text-align: center;">
+    <thead">
+      <tr>
+        <th colspan = "2" style="text-align:center" >Месеци и часови</th>
+        <th colspan = "1" style="text-align:center">Денови</th>
+        <th colspan = "1" style="text-align:center">Име</th>
+        <th colspan = "1" style="text-align:center">Презиме</th>
+      </tr>
+    </thead>
+    <tbody class>
+      <tr class ="success">
+        <td>Април</td>
+        <td>100</td>
+        <td>2</td>
+        <td>Стефан</td>
+        <td>Стефановски</td>
+      </tr>
+      <tr>
+        <td>Мај</td>
+        <td>45</td>
+        <td>1</td>
+        <td>Петко</td>
+        <td>Петкоски</td>
+      </tr>
+      <tr>
+        <td>Јули</td>
+        <td>120</td>
+        <td>4</td>
+        <td colspan="2">Нема информации</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <form>
+    <div class="col-xs-12 col-md-8">
+      <label for="exampleInputEmail1">Movie Title</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    </div>
+
+    <div class="col-xs-6 col-md-4">
+    <label for="genre">Genre</label>
+    <select class="form-control">
+
+        <option value="" disabled selected hidden>Choose a genre...</option>
+        <option>Comedy</option>
+        <option>Drama</option>
+        <option>Action</option>
+        <option>Horror</option>
+        <option>Thriller</option>
+      </select>
+    </div>
+    <div class="col-xs-6 col-md-4">
+        <label for="exampleInputEmail1">Director</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+
+      <div class="col-xs-6 col-md-4">
+        <label for="exampleInputEmail1">Writer</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+
+      <div class="col-xs-6 col-md-4">
+        <label for="exampleInputEmail1">Producer</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+
+      <div class="col-xs-6">
+        <label for="exampleInputEmail1">Website</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+
+      <div class="col-xs-6">
+        <label for="exampleInputEmail1">Youtube trailer URL</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+
+      <div class="col-xs-12">
+    <label for="review">Review</label>
+      <textarea class="form-control" rows="3"></textarea>
+    </div>
+    <div class="col-xs-12">
+        <label for="review">Review</label><br>
+    <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Terrible
+      </label>
+
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Watchable
+      </label>
+
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Best Ever
+      </label>
+</div>
+      <br><br>
+      <div class="col-xs-12">
+      <button type="button" class="btn btn-primary btn-sm btn-danger">Cancel <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+      <button type="button" class="btn btn-primary btn-sm btn-success">Submit <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+      </div>
+    
+    </button>  </form>
+</body>
